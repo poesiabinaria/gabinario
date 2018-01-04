@@ -37,7 +37,7 @@ header{
 }
 
 
-#greeting{
+.console-title{
   font-family: 'VT323', monospace;
   font-size: 24px;
   margin: 10px 0;
@@ -45,7 +45,7 @@ header{
 
 #string-console{ color: rgb(0, 160, 160); }
 
-#string-ola-borboleta{ color: rgb(214, 157, 133); }
+#string-argumento{ color: rgb(214, 157, 133); }
 
 
 
@@ -84,18 +84,29 @@ main{
 
 
 .portfolio h2{
-  font-size: 24px;
+  font-size: 22px;
   text-transform: uppercase; 
-  word-spacing: 20px;
+  letter-spacing: 5px;
   text-align: center;
   background-color: rgb(0, 160, 160);
+  /*border: 3px solid white;*/
+  /*color: black;*/
+  padding: 2px 0;
   box-shadow: 0 1px 10px 0 black;
 }
 
 .prints{
-  margin: 60px 0;
+  margin-bottom: 60px;
   text-align: center;
+  
+   
+  
 }
+
+.sobre-projeto{
+  
+  margin: 50px 0;
+} 
 
 .prints img{ width: 400px; }
 
@@ -105,14 +116,20 @@ main{
   font-size: 19px;
   font-weight: bold;
   display: inline-block;
-  margin-top: 70px;
-  padding: 0 12px;
-  color: rgb(35, 44, 49);
-  background-color: white;
+  margin: 70px 0;
+  padding: 2px 12px;
+  color: black;
+  background-color: white ;
   margin-bottom: 0;
+  /*border-radius: 2px;*/
 }
 
-.descricao-projeto { text-align: justify;}
+.descricao-projeto { 
+  text-align: justify; 
+  border-left: 1px solid white ; 
+  padding-left: 50px;
+}
+
 .descricao-projeto p{ text-indent: 50px; }
 
 .btn-abrir-projeto a {
@@ -120,10 +137,16 @@ main{
   text-transform: lowercase;
   padding: 0 8px;
   color: white;
-  background-color: #19ADD7;
+  background-color: #00a4d3; 
+
 }
 
-
+/*.portfolio .console-title{
+  text-align: center;
+  font-size: 30px;
+  background-color: white;
+  color: black;
+}*/
 
 
 
@@ -190,7 +213,7 @@ section h1{
 
 
 footer{
-  background-color: rgb(112, 173, 71);
+  background-color: rgb(112, 48, 160);
   padding: 4px 0;
   text-align: center;
   width: 250px;
