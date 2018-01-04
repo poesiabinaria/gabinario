@@ -5,22 +5,6 @@ body{
     margin: 65px 0 0 0;
 }
 
-button {
-  
-  font-size: 11px;
-  text-transform: uppercase;
-  background-color: #DA1653;
-  color: white;
-  font-weight: bold;
-  padding: 4px 10px;
-  border-radius: 2px;
-  border: none;
-  transition: .15s linear;
-  margin: 10px 4px 0 0;
-  cursor: pointer;
-}
-
-button:hover{ background-color: #E35683; }
 
 a{
   color: inherit; 
@@ -71,9 +55,10 @@ header{
 main{ 
   margin: 50px auto 190px auto; 
   width: 900px;
+  
 }
 
-#my-description, .portfolio{
+#my-description{
   font-size: 18px;
   text-align: justify;
   width: 575px;
@@ -86,6 +71,64 @@ main{
   width: 130px;
   display: inline-block;
 }
+
+
+
+
+
+
+.portfolio {
+  font-size: 17px;
+  margin: 100px 0;
+}
+
+
+.portfolio h2{
+  font-size: 24px;
+  text-transform: uppercase; 
+  word-spacing: 20px;
+  text-align: center;
+  background-color: rgb(0, 160, 160);
+  box-shadow: 0 1px 10px 0 black;
+}
+
+.prints{
+  margin: 60px 0;
+  text-align: center;
+}
+
+.prints img{ width: 400px; }
+
+.primeiro-print{ margin-right: 20px; }
+
+.titulo-projeto{
+  font-size: 19px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 70px;
+  padding: 0 12px;
+  color: rgb(35, 44, 49);
+  background-color: white;
+  margin-bottom: 0;
+}
+
+.descricao-projeto { text-align: justify;}
+.descricao-projeto p{ text-indent: 50px; }
+
+.btn-abrir-projeto a {
+  font-size: 14px;
+  text-transform: lowercase;
+  padding: 0 8px;
+  color: white;
+  background-color: #19ADD7;
+}
+
+
+
+
+
+
+
 
 #box-find-me{
   width: 210px; 
@@ -117,7 +160,7 @@ main{
 
 #social-networks img:hover{ opacity: .8; }
 
-#github{ margin-right: 8px; }
+#linkedin{ margin: 0 8px 0 8px; }
 
 #specifc-thing-bar { background-color: #19ADD7; }
 
