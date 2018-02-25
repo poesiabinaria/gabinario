@@ -22,14 +22,18 @@ h1{
   line-height: 40px;
 }
 
-h2{
+/*h2{
   font-size: 22px;
   text-transform: uppercase; 
   letter-spacing: 5px;
   text-align: center;
   padding: 2px 0;
   box-shadow: 0 1px 10px 0 black;
-}
+}*/
+
+h4{ font-style: italic; }
+
+h4::before{ content: "> "; }
 
 header{
   margin: 0 auto;
@@ -155,45 +159,88 @@ main{
 
 .portfolio {
   font-size: 17px;
-  margin: 100px 0;
+  margin-top: 90px;
 }
+
+.projeto-individual{ margin: 50px 0 100px 0; }
 
 .titulo-secao{
   margin: 0 auto;
-  width: 600px;
+  width: 75%;
   background-color: rgb(0, 160, 160);
   border-radius: 2px;
 }
 
 .prints{
-  margin-bottom: 60px;
+  margin: 60px 0;
   text-align: center;
 }
 
-.sobre-projeto{ margin: 50px 0; } 
 
-.prints img{ width: 400px; }
+.prints img{ 
+  border: 2px solid white; 
+  border-radius: 2px;
+  padding: 3px;
+}
+
+.prints .desktop{
+  width: 300px; 
+  height: 200px;
+}
+
+.prints .mobile{
+  width: 100px; 
+  height: 150px;
+}
 
 .primeiro-print{ margin-right: 20px; }
 
-.titulo-projeto{
-  font-size: 19px;
-  font-weight: bold;
+h3{   
+  font-size: 20px;   
+  font-weight: bold;   
   display: inline-block;
-  margin: 70px 0;
-  padding: 2px 12px;
+  padding: 1px 12px;
   color: black;
   background-color: white ;
   margin-bottom: 0;
 }
 
+#tp{
+  font-size: 40px;
+}
+
+.section-title{
+  text-align: right;
+}
+
+.informacoes-projeto{
+  margin: 80px 0;
+}
+
+/*.monitor-desktop{
+  position: relative;
+}
+
+#teste{
+  width: 128px;
+  border-radius: 20px;
+  position: absolute;
+  top:20px;
+  left: 30px;
+}*/
+
 .descricao-projeto { 
   text-align: justify; 
   border-left: 1px solid rgb(0, 160, 160) ; 
-  padding-left: 40px;
+  padding: 2px 5%;
+  
 }
 
-.descricao-projeto p{ text-indent: 50px; }
+.technologies{
+
+}
+
+/*.descricao-projeto:first-child p{ text-indent: 50px; }*/
 
 .btn-abrir-projeto a {
   font-size: 14px;
@@ -201,6 +248,7 @@ main{
   padding: 0 8px;
   color: white;
   background-color: #00a4d3; 
+  
 }
 
 
