@@ -1,5 +1,9 @@
 body{
     background-color: rgb(35, 44, 49);
+    background-image: url(../img/background.png);
+    background-repeat: repeat-y;
+    background-position: right;
+    background-size: 200px;
     color: white;
     font-family: 'Scada', sans-serif;
     margin: 65px 0 0 0;
@@ -30,12 +34,25 @@ h2{
 header{
   margin: 0 auto;
   width: 600px;
+  position: relative;
 }
 
 #logo{
-  width: 160px;
+  width: 150px;
   box-shadow: 2px 2px 20px 0 black;
+  border: 3px solid white;
+  
 }
+
+#image-credit{ 
+  font-size: 11px; 
+  margin:0;
+  transform: rotate(270deg);
+  position: absolute;
+  left: -40px;
+  top:22px;
+}
+
 
 #header-text{
   float: right;
@@ -196,7 +213,6 @@ footer{
   background-color: rgb(112, 48, 160);
   padding: 4px 0;
   text-align: center;
-  width: 250px;
   margin: 0 auto;
   border-radius: 1px;
 }
