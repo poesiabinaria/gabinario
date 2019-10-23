@@ -176,7 +176,7 @@ main{
 
 .prints .desktop{
   width: 300px; 
-  height: 200px;
+  /*height: 200px;*/
 }
 
 .prints .mobile{
