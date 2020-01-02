@@ -1,0 +1,25 @@
+{
+  "name": "gabinario",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poesiabinaria/gabinario.git"
+  },
+  "author": "Gabriel Mendes Macêdo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poesiabinaria/gabinario/issues"
+  },
+  "homepage": "https://github.com/poesiabinaria/gabinario#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}
