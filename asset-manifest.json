@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/gabinario/static/css/main.d20b49a8.chunk.css",
+    "main.js": "/gabinario/static/js/main.560bb95b.chunk.js",
+    "main.js.map": "/gabinario/static/js/main.560bb95b.chunk.js.map",
+    "runtime-main.js": "/gabinario/static/js/runtime-main.24a51a2b.js",
+    "runtime-main.js.map": "/gabinario/static/js/runtime-main.24a51a2b.js.map",
+    "static/js/2.ac55d0fa.chunk.js": "/gabinario/static/js/2.ac55d0fa.chunk.js",
+    "static/js/2.ac55d0fa.chunk.js.map": "/gabinario/static/js/2.ac55d0fa.chunk.js.map",
+    "static/js/3.4ad0e34d.chunk.js": "/gabinario/static/js/3.4ad0e34d.chunk.js",
+    "static/js/3.4ad0e34d.chunk.js.map": "/gabinario/static/js/3.4ad0e34d.chunk.js.map",
+    "index.html": "/gabinario/index.html",
+    "static/css/main.d20b49a8.chunk.css.map": "/gabinario/static/css/main.d20b49a8.chunk.css.map",
+    "static/js/2.ac55d0fa.chunk.js.LICENSE.txt": "/gabinario/static/js/2.ac55d0fa.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/gabinario/static/media/clacon.c3da9197.ttf",
+    "static/media/doatec-1.348c080d.png": "/gabinario/static/media/doatec-1.348c080d.png",
+    "static/media/doatec-2.395c7ab9.png": "/gabinario/static/media/doatec-2.395c7ab9.png",
+    "static/media/gabinario-logo.91c7d199.svg": "/gabinario/static/media/gabinario-logo.91c7d199.svg",
+    "static/media/github-icon.2368d37c.svg": "/gabinario/static/media/github-icon.2368d37c.svg",
+    "static/media/linkedin-icon.3928a358.svg": "/gabinario/static/media/linkedin-icon.3928a358.svg",
+    "static/media/portal-cstic-1.f73f9d38.png": "/gabinario/static/media/portal-cstic-1.f73f9d38.png",
+    "static/media/portal-cstic-2.b82b2120.png": "/gabinario/static/media/portal-cstic-2.b82b2120.png",
+    "static/media/portal-sti-1.662509b7.png": "/gabinario/static/media/portal-sti-1.662509b7.png",
+    "static/media/portal-sti-2.04b88ecc.png": "/gabinario/static/media/portal-sti-2.04b88ecc.png",
+    "static/media/telegram-icon.03c34ca2.svg": "/gabinario/static/media/telegram-icon.03c34ca2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.24a51a2b.js",
+    "static/js/2.ac55d0fa.chunk.js",
+    "static/css/main.d20b49a8.chunk.css",
+    "static/js/main.560bb95b.chunk.js"
+  ]
+}
