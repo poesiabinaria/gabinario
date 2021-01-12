@@ -207,9 +207,9 @@ function Main() {
                       <div className="blue-high d-inline mr-3">SASS</div>
                     </div>
                     <p>
-                      O Portal NTI foi idealizado para seus colaboradores
+                      O Portal STI foi idealizado para seus colaboradores
                       internos. Seu principal papel é integrar cada membro ao
-                      dia a dia do NTI para que seja possível uma experiência
+                      dia a dia do STI para que seja possível uma experiência
                       mais rica, transparente e acolhedora para todos.
                     </p>
                     {/* <a

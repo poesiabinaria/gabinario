@@ -18,7 +18,7 @@ $yellow-high: #fde765;
 $yellow-low: #e1994f;
 
 body {
-  margin: 30px;
+  margin-top: 15px;
   font-family: "Classic Console Regular";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -252,6 +252,10 @@ header {
       }
     }
   }
+
+  .target {
+    z-index: 1000;
+  }
 }
 
 .blue-bg {
@@ -309,7 +313,7 @@ header {
 
     .profile-description {
       font-size: 26px;
-      text-align: justify;
+      //text-align: justify;
     }
 
     .profile-main {

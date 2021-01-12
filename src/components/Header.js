@@ -5,7 +5,7 @@ import gabinarioLogo from "../img/gabinario-logo.svg";
 function Header() {
   return (
     <div className="container-fluid">
-      <header className="d-flex">
+      <header className="d-flex align-items-center px-md-5">
         <div className="logo-area mr-auto">
           <img src={gabinarioLogo} alt="" />
         </div>
@@ -14,7 +14,6 @@ function Header() {
             <li>
               <span className="blue-low">Github Pages</span> OK
             </li>
-            <li>01000111</li>
           </ul>
         </div>
       </header>
